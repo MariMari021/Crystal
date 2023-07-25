@@ -1,0 +1,291 @@
+
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+@font-face{
+    font-family: 'inter';
+    src: url(font/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+.tituloum{
+    display: flex;
+color: white;
+   font-family: 'inter';
+   font-weight: 700;
+   font-size: 40px;
+   padding: 2px 0px;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #008374 ;
+    width: 100%;
+height: 91px;
+}
+
+a{
+    PADDING: 20px;
+    text-decoration: none;
+    font-family: 'inter';
+font-size: 25px;
+font-weight: 400;
+color:#fff;
+
+}
+
+nav{
+    align-items: center;
+    padding: 10px;
+    display: flex;
+}
+
+.banner{
+    width: 100%;
+    height: 566px;
+    background-color: #23A092;
+    display: flex;
+    align-items: center;
+    color: #fff; 
+    font-family: 'inter';
+    font-weight: 400;
+    text-align: left;
+    justify-content: space-evenly;
+}
+
+.texto h2{
+   
+font-size: 36px;
+}
+
+.texto p{
+    font-size: 26px;
+    width: 425px;
+    font-weight: 300;
+ 
+}
+
+.topicos{
+    padding-right: 7%;
+    padding-left: 7%;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+.topum{
+    display:grid;
+    width: 230px;
+height: 205px;
+border: black   solid 1px;
+font-family: 'inter';
+font-size: 19px;
+font-weight: 300;
+text-align: left;
+align-items: center;
+background-color: #fff;
+align-content: space-evenly;
+justify-items: center;
+}
+
+.topum p{
+    padding: 8%;
+}
+
+.meio{
+    background-color: #23A092;
+    height: 676px;
+}
+
+.planos{
+    padding: 12% 12% 8%;
+}
+
+.planos h1{
+    font-family: 'inter';
+font-size: 36px;
+font-weight: 400;
+
+}
+
+.planos p{
+    font-family: 'inter';
+font-size: 23px;
+font-weight: 300;
+
+}
+
+.box{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 9%;
+}
+
+.caixa{
+    width: 496px;
+height: 555px;
+background: #EDECEC;
+text-align: center;
+font-family: 'inter';
+font-weight: 300;
+box-shadow: 1px 5px 5px gray;
+}
+
+.title{
+    font-size: 36px;
+    font-weight: 400;
+    padding-top: 8%;
+    padding-bottom: 4%;
+}
+
+.caixa p{
+    font-size: 23px;
+    padding-top: 6%;
+}
+
+.tres{
+    font-size: 23px;
+    padding-top: 6%;
+   color: #959292;
+   
+}
+
+
+.dinheiro{
+    padding-top: 8%;
+    font: bold;
+}
+
+
+.linha{
+    background: #F6A256;
+    width: 496px;
+    height: 54px;
+    
+}
+
+footer{
+    background: #008374;
+    width: 100%;
+    height: 313px;
+    
+}
+.op{
+    display: grid;
+}
+
+#fim{
+    padding: 10px;
+}
+
+.lado{
+    padding-top: 5%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.formu{
+    padding-top: 1%;
+}
+
+.escrever{
+    width: 416px;
+height: 43px;
+border-radius: 10px;
+background: #E8E8E8;
+
+
+}
+
+.button{
+    width: 130px;
+height: 43px;
+border-radius: 10px;
+font-family: 'inter';
+font-size: 20px;
+font-weight: 400;
+
+}
+
+.text{
+    font-family: 'inter';
+    font-size: 23px;
+    font-weight: 300;
+    width: 451px;
+    color: #fff;
+    margin-bottom: 20px;
+
+}
+
+
+.verde{
+background-color:#23A092;
+ height: 823px;
+padding-right: 15%;
+padding-left: 17%;
+}
+
+.verde h1{
+    font-family: 'inter';
+font-size: 36px;
+font-weight: 700;
+color: #fff;
+padding-top: 7%;
+}
+
+.verde p{
+    font-family: 'inter';
+font-size: 23px;
+font-weight: 300;
+color: #fff;
+width: 983px;
+padding-bottom: 7%;
+
+}
+
+.contato{
+    font-family: 'inter';
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff; 
+}
+
+.contum{
+     display: grid;
+     width: 691px;
+     height: 52px;
+border-radius: 10px;
+background: #E8E8E8;
+margin: 10px 0;
+}
+
+label{
+    padding-bottom: 2%;
+    font-weight: 500;
+}
+
+.mandar{
+    width: 360px;
+height: 52px;
+border-radius: 15px;
+width: 323px;
+font-family: 'inter';
+font-size: 22px;
+font-weight: 400;
+margin: 40px 0;
+background: #E8E8E8;
+
+}
+
+.caixa{
+    cursor: pointer;
+    transition: transform .2s;
+}
+  .caixa:hover {
+    transform: scale(1.1); 
+  }
